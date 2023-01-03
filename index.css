@@ -1,0 +1,183 @@
+/* For screen */
+*{
+    background-color: #1E1E1E;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* For nav bar line */
+#header{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343333;
+    height: 6rem;
+}
+
+/* For nav bar writings */
+#content{
+    background-color: #343333;  
+    font-size: larger;
+    font-family: 'League Spartan', sans-serif; 
+    margin-right: 2rem;  
+}
+
+#content ul{
+    list-style: none;
+    display: flex;
+    background-color: transparent;
+    
+}
+
+#content ul li{
+    font-size: 2rem ;
+    text-decoration: none;
+    color: #AFAFAF;
+    margin: 1.5rem;
+    background-color: transparent;
+}
+
+#content ul li a{
+    text-decoration: none;
+    color: #AFAFAF;
+    background-color: transparent;
+}
+
+#content ul li a:hover{
+    color: #EE6161;
+    cursor: pointer;
+}
+
+/* For logo */
+#image{
+    background-color: transparent;
+}
+
+#logo{
+    height: 5rem;
+    width: 14rem;
+    background-color: transparent;
+}
+
+/* For body writings */
+#text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+p4:hover{
+    cursor: pointer;
+}
+
+p1{ 
+    font-family: 'League Spartan', sans-serif;   
+    display: flex;
+    font-size: x-large;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+p2{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 800;
+    font-size: xx-large;   
+    display: flex;
+    margin-bottom: 1rem;
+    background-color: transparent;
+
+}
+
+p3{
+    font-family: 'Roboto', sans-serif;   
+    display: flex;
+    font-size: medium;
+    margin-bottom: 2rem;
+    background-color: transparent;
+}
+
+p4 a{
+    text-decoration: none;
+    font-family: 'DIN Alternate';
+    font-size: small;   
+    color: #F0B55C;
+    display: flex;
+    background-color: transparent;
+}
+
+.description{
+    width: 50%;
+    background-color: transparent;
+}
+
+/* For DP */
+#img1{
+    display:flex;
+    background-color: transparent;
+}
+
+section{
+    padding: 0rem 14rem 0rem 3rem;
+    margin-top: 8rem;
+    background-color: transparent;
+}
+
+/* For contact me writings */
+#contactme {
+    background-color: transparent;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+p5{
+    font-family: 'Galada', cursive;
+    font-size: 4rem;
+    background-color: transparent;
+    color: #CECECE;
+
+}
+
+p6{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 1rem;
+    color: #F0B55C;
+    background-color: transparent;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 31rem;
+}
+
+#contactinfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+    font-family: 'League Spartan', sans-serif; 
+    background-color: transparent;
+    color: #AFAFAF;
+}
+
+.icon{
+    background-color: transparent;
+}
+
+.icon a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon a p{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.icon:hover{
+    opacity: 0.7;
+}
+
+.icon i, .icon p{
+    color: #898989;
+}
